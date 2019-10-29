@@ -38,7 +38,7 @@ The network is stored in an adjacency matrix:
 - confidence scores --> weights of edges
 
 ## Running the algorithm
-The algorithm has to be run on the command line.
+The algorithm has to be run on the command line using the run.py file.
 The arguments are as follows:
 
 **positional arguments**:
