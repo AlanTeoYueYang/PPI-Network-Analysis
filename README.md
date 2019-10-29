@@ -27,13 +27,13 @@ Refer to the sample_genes.txt where the first row is the PD related genes and se
 The algorithm has to be run on the command line on Ubuntu
 The arguments are as follows:
 **- positional arguments**:
-  links             Protein links text file from STRING
-  alias             Protein alias text file from STRING
-  type_of_analysis  Type of analysis: RWR or Propagation
-  disease_genes     Disease genes, see sample_genes.txt
-  param             Parameter for analysis; restart for RWR, alpha for
+- links             Protein links text file from STRING
+- alias             Protein alias text file from STRING
+- type_of_analysis  Type of analysis: RWR or Propagation
+- disease_genes     Disease genes, see sample_genes.txt
+- param             Parameter for analysis; restart for RWR, alpha for
                     Propagation
-  output_file       Output filename; csv
+- output_file       Output filename; csv
 
 optional arguments:
   -h, --help        show this help message and exit
