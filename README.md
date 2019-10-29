@@ -30,8 +30,10 @@ Each row is a list of STRING identifiers for the genes of the particular disease
 
 Refer to the sample_genes.txt where the first row is the PD related genes and second row is the T2D related genes
 
+The network is stored in an adjacency matrix, proteins are nodes and links are edges. 
+
 ## Running the algorithm
-The algorithm has to be run on the command line on Ubuntu.
+The algorithm has to be run on the command line.
 The arguments are as follows:
 
 **positional arguments**:
@@ -50,3 +52,8 @@ An example:
 python run.py protein.links.full.v11.0.txt protein.aliases.v11.0.txt.gz RWR sample_genes.txt output.csv
 
 This will run the RWR algorithm to find high ranking genes in PD and T2D and write the top 100 genes into output.csv
+
+## Customization
+To customize your own analysis, simply inherit the PPI_Network into your new class <br/> and add your own algorithms to the new class.
+
+The arguments in the run.py has been set for RWR and Propagation only. Please edit accordingly.
