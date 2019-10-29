@@ -1,11 +1,11 @@
 # PPI-Network-Analysis
 Protein-protein interaction network constructed with STRING database
 
-To read the details of this Random-walk-with-restart(RWR) implementation and report regarding the analysis, please refer to Report.pdf
+To read the details of this Random-walk-with-restart(RWR) implementation and report regarding the analysis,\ please refer to Report.pdf
 
 I added a Propagation algorithm as well, references to it can be found in the report as well.
 
-Briefly, the algorithms generate a list of functional genes that can be found in both diseases.
+Briefly, the algorithms generate the top 100 functional genes that can be found in both diseases.
 
 The rationale for doing so is to understand potential molecular links between the two diseases, allowing for better understanding of the two diseases and consequently, more efficient treatment of one/both diseases.
 
