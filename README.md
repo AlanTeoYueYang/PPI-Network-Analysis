@@ -26,7 +26,7 @@ Refer to the sample_genes.txt where the first row is the PD related genes and se
 ## Running the algorithm
 The algorithm has to be run on the command line on Ubuntu
 The arguments are as follows:
-**- positional arguments**:
+**positional arguments**:
 - links             Protein links text file from STRING
 - alias             Protein alias text file from STRING
 - type_of_analysis  Type of analysis: RWR or Propagation
@@ -35,8 +35,8 @@ The arguments are as follows:
                     Propagation
 - output_file       Output filename; csv
 
-optional arguments:
-  -h, --help        show this help message and exit
+**optional arguments**:
+- -h, --help        show this help message and exit
   
 An example:
 python run.py protein.links.full.v11.0.txt protein.aliases.v11.0.txt.gz RWR sample_genes.txt output.csv
