@@ -30,7 +30,12 @@ Each row is a list of STRING identifiers for the genes of the particular disease
 
 Refer to the sample_genes.txt where the first row is the PD related genes and second row is the T2D related genes
 
-The network is stored in an adjacency matrix, proteins are nodes and links are edges. 
+## Network Architecture
+
+The network is stored in an adjacency matrix:
+- proteins --> nodes
+- links --> edges
+- confidence scores --> weights of edges
 
 ## Running the algorithm
 The algorithm has to be run on the command line.
