@@ -25,19 +25,19 @@ Each row is a list of STRING identifiers for the genes of the particular disease
 Refer to the sample_genes.txt where the first row is the PD related genes and second row is the T2D related genes
 
 ## Running the algorithm
-The algorithm has to be run on the command line on Ubuntu
+The algorithm has to be run on the command line on Ubuntu.
 The arguments are as follows:
+
 **positional arguments**:
-- links \t Protein links text file from STRING
-- alias             Protein alias text file from STRING
-- type_of_analysis  Type of analysis: RWR or Propagation
-- disease_genes     Disease genes, see sample_genes.txt
-- param             Parameter for analysis; restart for RWR, alpha for
-                    Propagation
-- output_file       Output filename; csv
+- links (Protein links text file from STRING)
+- alias (Protein alias text file from STRING)
+- type_of_analysis (Type of analysis: RWR or Propagation)
+- disease_genes (Disease genes, see sample_genes.txt)
+- param (Parameter for analysis; restart for RWR, alpha for Propagation)
+- output_file (Output filename; csv file)
 
 **optional arguments**:
-- -h, --help        show this help message and exit
+- -h, --help (show this help message and exit)
   
 An example:
 python run.py protein.links.full.v11.0.txt protein.aliases.v11.0.txt.gz RWR sample_genes.txt output.csv
