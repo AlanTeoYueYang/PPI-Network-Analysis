@@ -12,7 +12,8 @@ Download the full links and aliases files from STRING database https://string-db
 The current latest version of the files are:
 - protein.links.full.v11.0.txt.gz 
 - protein.aliases.v11.0.txt.gz
-Then extract out the files
+
+Then extract out the files into text files
 
 You will need at least python 3.5 and the following libraries:
 - numpy
@@ -27,7 +28,7 @@ Refer to the sample_genes.txt where the first row is the PD related genes and se
 The algorithm has to be run on the command line on Ubuntu
 The arguments are as follows:
 **positional arguments**:
-- links             Protein links text file from STRING
+- links \t Protein links text file from STRING
 - alias             Protein alias text file from STRING
 - type_of_analysis  Type of analysis: RWR or Propagation
 - disease_genes     Disease genes, see sample_genes.txt
