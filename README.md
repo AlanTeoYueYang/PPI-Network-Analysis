@@ -10,12 +10,12 @@ Briefly, the algorithms generate the top 100 functional genes that are implicate
 The rationale for doing so is to understand potential molecular links between the two diseases, allowing for better understanding of the two diseases and consequently, more efficient treatment of one/both diseases.
 
 ## Download data and setting up
-Download the full links and aliases files from STRING database https://string-db.org/cgi/download.pl
+Download the full links and aliases files from STRING database https://string-db.org/cgi/download.pl and choose the species accordingly
 
-The current latest version of the files are:
+The current latest version of the files for Homo Sapiens are:
 
-- protein.links.full.v11.0.txt.gz 
-- protein.aliases.v11.0.txt.gz
+- 9606.protein.links.full.v11.0.txt.gz
+- 9606.protein.aliases.v11.0.txt.gz
 
 Then extract out the files into text files
 
@@ -55,7 +55,7 @@ The arguments are as follows:
   
 An example:
 
-python run.py protein.links.full.v11.0.txt protein.aliases.v11.0.txt RWR sample_genes.txt output.csv
+python run.py 9606.protein.links.full.v11.0.txt 9606.protein.aliases.v11.0.txt RWR sample_genes.txt output.csv
 
 This will run the RWR algorithm to find high ranking genes in PD and T2D and write the top 100 genes into output.csv
 
