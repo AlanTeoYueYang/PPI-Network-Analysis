@@ -55,7 +55,7 @@ The arguments are as follows:
   
 An example:
 
-python run.py 9606.protein.links.full.v11.0.txt 9606.protein.aliases.v11.0.txt RWR sample_genes.txt output.csv
+python run.py 9606.protein.links.full.v11.0.txt 9606.protein.aliases.v11.0.txt RWR sample_genes.txt 0.75 output.csv
 
 This will run the RWR algorithm to find high ranking genes in PD and T2D and write the top 100 genes into output.csv
 
